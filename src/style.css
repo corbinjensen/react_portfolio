@@ -1,0 +1,425 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'avertalight';
+  src: url("./font/webfontkit/intelligent_design_-_averta_light-webfont.woff2") format("woff2"), url("./font/webfontkit/intelligent_design_-_averta_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'avertaregular';
+  src: url("./font/webfontkit/intelligent_design_-_averta-webfont.woff2") format("woff2"), url("./font/webfontkit/intelligent_design_-_averta-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'avertalight', serif;
+  font-weight: 300;
+}
+
+h4, h5 {
+  margin-bottom: .5rem;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+a {
+  color: #446bf9;
+}
+
+strong {
+  font-weight: 900;
+  color: #446bf9;
+}
+
+@media (min-width: 356px) {
+  h2 {
+    font-size: 2.1em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 396px) {
+  h2 {
+    font-size: 2.2em;
+  }
+}
+@media (min-width: 435px) {
+  h2 {
+    font-size: 2.3em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+}
+@media (min-width: 470px) {
+  h2 {
+    font-size: 2.4em;
+  }
+}
+@media (min-width: 503px) {
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 539px) {
+  h2 {
+    font-size: 2.6em;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+}
+@media (min-width: 570px) {
+  h2 {
+    font-size: 2.7em;
+  }
+
+  h3 {
+    font-size: 1.9em;
+  }
+}
+@media (min-width: 611px) {
+  h2 {
+    font-size: 2.8em;
+  }
+}
+@media (min-width: 632px) {
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+}
+@font-face {
+  font-family: 'fontello';
+  src: url("./font/fontello.eot?79771692");
+  src: url("./font/fontello.eot?79771692#iefix") format("embedded-opentype"), url("./font/fontello.woff2?79771692") format("woff2"), url("./font/fontello.woff?79771692") format("woff"), url("./font/fontello.ttf?79771692") format("truetype"), url("./font/fontello.svg?79771692#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-download:before {
+  content: '\e800';
+}
+
+/* '' */
+.icon-github:before {
+  content: '\e801';
+}
+
+/* '' */
+.icon-linkedin:before {
+  content: '\e802';
+}
+
+/* '' */
+.icon-mail:before {
+  content: '\e803';
+}
+
+.icon-phone:before {
+  content: '\e804';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'avertaregular', sans-serif;
+  font-size: 15px;
+  line-height: 1.3;
+  background-color: #fafafa;
+  color: #112147;
+}
+
+.wrapper {
+  padding: 0 .5rem;
+}
+
+@media (min-width: 680px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+}
+header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 480px) {
+  header {
+    align-items: baseline;
+  }
+}
+nav {
+  margin-top: 2em;
+}
+
+nav ul {
+  list-style: none;
+  line-height: 2;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.title {
+  width: 500px;
+  margin: 1em 0;
+}
+
+.sectionTitle {
+  margin: 1.5rem 0;
+}
+
+article {
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 624px;
+  padding: .5em;
+}
+
+@media (min-width: 356px) {
+  article p {
+    font-size: 1.1em;
+  }
+}
+@media (min-width: 396px) {
+  article p {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 435px) {
+  article p {
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 470px) {
+  article p {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 503px) {
+  article p {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 539px) {
+  article p {
+    font-size: 1.6em;
+  }
+}
+@media (min-width: 570px) {
+  article p {
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 611px) {
+  article p {
+    font-size: 1.8em;
+  }
+}
+@media (min-width: 632px) {
+  article p {
+    font-size: 2em;
+  }
+}
+section {
+  padding: 1rem;
+  border: 2px solid #112147;
+  margin: .5rem .5rem 0 0;
+  transition-property: background-color, color;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+}
+
+section:hover, section:focus {
+  background-color: #d9e0f1;
+  transition-property: background-color, color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+.work, .clients {
+  margin: 1.5em 0;
+  justify-content: center;
+}
+
+.work img {
+  max-width: 330px;
+}
+
+@media (min-width: 1044px) {
+  .work, .clients {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  section {
+    min-width: 43vw;
+  }
+}
+.work ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.3;
+  padding-top: .5rem;
+}
+
+.work h3 {
+  margin-bottom: .5rem;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.client img {
+  border-radius: 50px;
+  margin-bottom: 1em;
+}
+
+.client blockquote {
+  padding: 1rem 0;
+}
+
+blockquote {
+  max-width: 450px;
+  font-size: 1.5em;
+}
+
+blockquote::before {
+  content: "\201C";
+  color: #446bf9;
+}
+
+blockquote::after {
+  content: "\201D";
+  color: #446bf9;
+}
+
+footer {
+  background-color: #446bf9;
+  color: #fafafa;
+}
+
+footer nav {
+  margin-bottom: 2rem;
+}
+
+footer a {
+  color: #fafafa;
+}
