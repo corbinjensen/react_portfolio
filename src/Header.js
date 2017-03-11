@@ -1,11 +1,14 @@
 import React from 'react'
 import Nav from './Nav'
+import logo from './img/full-logo-colour.svg'
 
 class Header extends React.Component {
   render(){
     return (
-      <header>
-        <h1>Corbin Jensen Web Developer</h1>
+      <header className="wrapper">
+
+        <img className="title" src={logo} alt="Corbin Jensen "/>
+        
         <Nav />
       </header>
     )
