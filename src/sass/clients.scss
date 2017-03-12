@@ -1,0 +1,14 @@
+.client {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.client img {
+  border-radius: 50px;
+  margin-bottom: 1em;
+}
+
+.client blockquote {
+  padding: 1rem 0  ;
+}

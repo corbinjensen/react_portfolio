@@ -1,6 +1,8 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
 
+import '../css/intro.css'
+
 class Intro extends React.Component {
   render(){
     return (

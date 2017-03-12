@@ -1,6 +1,11 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
 
+// Styles
+import '../css/work.css'
+import '../css/style.css'
+import '../css/clients.css'
+
 // Images
 import Steve from '../img/clients/steve.jpeg'
 import Rebecca from '../img/clients/rebecca.jpeg'
