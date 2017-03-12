@@ -1,15 +1,15 @@
 import React from 'react'
-import farmCommand from './img/farmCommand.png'
+import farmCommand from '../img/farmCommand.png'
 import SectionTitle from './SectionTitle'
 
 class Work extends React.Component {
   render(){
     return (
-      <div className="work">
+      <div>
         <SectionTitle
           title="Work"
           />
-        <div className="wrapper">
+        <div className="work wrapper">
 
           <section>
             <div className="info">
