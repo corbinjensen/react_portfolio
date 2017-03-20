@@ -24,7 +24,6 @@ class Work extends React.Component {
 
             <img
               src={farmCommand}
-              width="330px"
               alt="Farm Command Software being used on Desktop, Laptop, and Mobile."
             />
 

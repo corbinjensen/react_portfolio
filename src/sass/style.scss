@@ -45,10 +45,8 @@ blockquote::after {
 footer {
   background-color: $brandBlue ;
   color: $gray;
-}
-
-footer nav {
-  margin-bottom: 2rem;
+  height: 100%;
+  padding: .5rem .5rem;
 }
 
 footer a {

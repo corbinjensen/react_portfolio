@@ -45,6 +45,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 @font-face {
   font-family: 'Averta';
   src: url("../font/webfontkit/intelligent_design_-_averta-webfont.woff2") format("woff2"), url("../font/webfontkit/intelligent_design_-_averta-webfont.woff") format("woff");
@@ -217,10 +221,9 @@ blockquote::after {
 
 footer {
   background-color: #446bf9;
-  color: #fafafa; }
-
-footer nav {
-  margin-bottom: 2rem; }
+  color: #fafafa;
+  height: 100%;
+  padding: .5rem .5rem; }
 
 footer a {
   color: #fafafa; }

@@ -2,6 +2,7 @@
   "name": "reactFolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://corbinjensen.ca",
   "devDependencies": {
     "node-sass": "^4.5.0",
     "react-scripts": "0.9.5"
@@ -16,6 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }

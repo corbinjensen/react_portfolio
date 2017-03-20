@@ -6,7 +6,7 @@ import '../css/style.css'
 class Footer extends React.Component {
   render(){
     return (
-      <footer className="wrapper">
+      <footer>
         <Nav />
       </footer>
     )

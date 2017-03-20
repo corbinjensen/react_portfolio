@@ -21,10 +21,6 @@ section:hover, section:focus {
   justify-content: center;
 }
 
-.work img {
-  max-width: 330px;
-}
-
 @media (min-width: 1044px) {
   .work, .clients {
     display: flex;

@@ -8,17 +8,18 @@ header {
   header {
     align-items: baseline; } }
 
-nav {
-  margin-top: 2em; }
+.mainMenu {
+  width: 100%;
+  justify-content: space-around; }
 
-nav ul {
+ul {
   list-style: none;
   line-height: 2;
   padding: 0; }
 
-nav a {
+a {
   text-decoration: none; }
 
 .title {
-  width: 500px;
+  width: 100%;
   margin: 1em 0; }
