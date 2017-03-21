@@ -1,5 +1,4 @@
 import React from 'react'
-import farmCommand from '../img/farmCommand.png'
 import SectionTitle from './SectionTitle'
 
 class Work extends React.Component {
@@ -9,7 +8,7 @@ class Work extends React.Component {
         <SectionTitle
           title="Work"
           />
-        <div className="work wrapper">
+        <div className="work wrapper" id="Work">
 
           <section>
             <div className="info">
@@ -21,11 +20,6 @@ class Work extends React.Component {
                 <li>2017</li>
               </ul>
             </div>
-
-            <img
-              src={farmCommand}
-              alt="Farm Command Software being used on Desktop, Laptop, and Mobile."
-            />
 
           </section>
 

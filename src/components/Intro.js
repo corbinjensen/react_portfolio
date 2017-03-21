@@ -8,7 +8,7 @@ class Intro extends React.Component {
     return (
         <div className="Intro Wrapper">
 
-        <article className="CTA">
+        <article className="CTA" id="About">
 
           <h2>Hello</h2>
 
@@ -17,19 +17,17 @@ class Intro extends React.Component {
           <p><strong>websites, apps, + e-commerce stores.</strong></p>
 
         <div className="CTA_Buttons">
-          <button className="CTA_btn">Get a Quote</button>
-          <button>Contact</button>
+          <a href="https://corbinjensen1.typeform.com/to/tzMuqO">
+            <button>
+              Get a Quote
+            </button>
+          </a>
+          <button><a href="#Contact">Contact</a></button>
         </div>
 
         </article>
 
         <WorkSlider />
-
-        <article>
-
-
-
-        </article>
 
       </div>
     )

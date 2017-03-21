@@ -5,7 +5,11 @@
 
 @media (min-width: 671px) {
   .Intro {
-    flex-direction: row; } }
+    flex-direction: row; }
+  .Intro {
+    padding: 1em; }
+  article {
+    width: 100%; } }
 
 button {
   background-color: transparent;
@@ -32,4 +36,4 @@ article {
 
 @media (min-width: 632px) {
   article p {
-    font-size: 1em; } }
+    font-size: 1.1em; } }

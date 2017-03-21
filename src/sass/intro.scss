@@ -11,6 +11,12 @@
   .Intro {
     flex-direction: row;
   }
+  .Intro {
+    padding: 1em;
+  }
+  article {
+    width: 100%;
+  }
 }
 
 button {
@@ -89,6 +95,6 @@ article {
 
 @media (min-width: 632px) {
   article p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }

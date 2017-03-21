@@ -7,7 +7,7 @@ class Footer extends React.Component {
   render(){
     return (
       <footer>
-        <Nav />
+        <Nav id="Contact" />
       </footer>
     )
   }
