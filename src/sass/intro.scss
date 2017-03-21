@@ -1,5 +1,11 @@
 @import "colors";
 
+@media (max-width: 861px) {
+  .CTA {
+    min-width:340px;
+  }
+}
+
 .Intro {
   display: flex;
   margin: 2em 0;
