@@ -17,7 +17,7 @@ class Clients extends React.Component {
     return (
       <div className="testo">
         <SectionTitle
-          title="Testimonials"
+          title="Testimonials:"
           />
         <div className="clients wrapper">
 

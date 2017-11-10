@@ -1,6 +1,4 @@
 import React from 'react'
-import WorkSlider from './WorkSlider'
-
 import '../css/intro.css'
 
 class Intro extends React.Component {
@@ -17,17 +15,17 @@ class Intro extends React.Component {
           <p><strong>websites, apps, + e-commerce stores.</strong></p>
 
         <div className="CTA_Buttons">
-          <a href="https://corbinjensen1.typeform.com/to/tzMuqO">
-            <button>
-              Get a Quote
-            </button>
-          </a>
-          <button><a href="#Contact">Contact</a></button>
+
+          <button>
+
+            <a href="#Contact">Contact</a>
+            
+          </button>
+
         </div>
 
         </article>
 
-        <WorkSlider />
 
       </div>
     )
