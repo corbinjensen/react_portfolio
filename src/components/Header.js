@@ -12,9 +12,9 @@ class Header extends React.Component {
         <img className="title" src={logo} alt="Corbin Jensen "/>
 
         <ul className="mainMenu">
-          <li><a href="#Intro">About</a></li>
-          <li><a href="#Work">Work</a></li>
-          <li><a href="https://corbinjensen1.typeform.com/to/tzMuqO">Get a Quote</a></li>
+          <li><a href="#Work">Portfolio</a></li>
+          <li><a href="https://blog.corbinjensen.ca">Blog</a></li>
+          <li><a href="mailto:c@corbinjensen.ca">Contact</a></li>
         </ul>
 
       </header>

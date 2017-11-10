@@ -1,5 +1,4 @@
 import React from 'react'
-import Resume from '../assets/FrontEndDev-CorbinJensen.pdf'
 
 class Nav extends React.Component {
   render(){

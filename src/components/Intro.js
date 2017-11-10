@@ -1,6 +1,8 @@
 import React from 'react'
 import '../css/intro.css'
 
+import FarmCommand from '../img/farmCommand.png'
+
 class Intro extends React.Component {
   render(){
     return (
@@ -11,18 +13,15 @@ class Intro extends React.Component {
           <h2>Hello</h2>
 
           <p>Im <strong>Corbin</strong>, a Web Developer from Canada.</p>
-          <p>I help organizations succeed online, creating</p>
-          <p><strong>websites, apps, + e-commerce stores.</strong></p>
+          <p>I enjoy helping organizations create beautiful</p>
+          <p><strong>websites + apps.</strong></p>
 
-        <div className="CTA_Buttons">
 
-          <button>
+        </article>
 
-            <a href="#Contact">Contact</a>
-            
-          </button>
+        <article>
 
-        </div>
+          <img src={FarmCommand}/>
 
         </article>
 

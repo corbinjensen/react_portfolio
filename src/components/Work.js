@@ -1,8 +1,5 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
-import FarmCommand from '../img/farmCommand.png'
-import JC from '../img/portfolio/JC.png'
-import Gavin from '../img/portfolio/gavinCrawford.jpg'
 
 class Work extends React.Component {
   render(){
@@ -14,10 +11,10 @@ class Work extends React.Component {
         <div className="work wrapper" id="Work">
 
           <section>
-            <img src={FarmCommand} />
+
             <div className="info">
               <h3>FarmCommand</h3>
-              <a href="http://smartfarmers.ca" target="_blank">See it Here</a>
+              <a href="http://smartfarmers.ca" target="_blank" >See it Here</a>
               <ul>
                 <li>HTML, CSS, REACT JS, REACT SAGA, NODE JS</li>
                 <li>All in one Precison Agronomy Product</li>
@@ -28,8 +25,6 @@ class Work extends React.Component {
           </section>
 
           <section>
-
-            <img src={JC} />
 
             <div className="info">
               <h3>JC Acupuncturist</h3>
@@ -44,8 +39,7 @@ class Work extends React.Component {
           </section>
 
           <section>
-            
-            <img src={Gavin} />
+        
 
             <div className="info">
               <h3>Gavin Crawford Actor</h3>
