@@ -10,7 +10,8 @@
   "dependencies": {
     "nuka-carousel": "^4.3.5",
     "react": "^15.6.2",
-    "react-dom": "^15.6.2"
+    "react-dom": "^15.6.2",
+    "react-responsive-carousel": "^3.1.41"
   },
   "scripts": {
     "build-css": "node-sass src/sass -o src/css",

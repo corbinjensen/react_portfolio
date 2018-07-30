@@ -1,8 +1,6 @@
 import React from 'react'
 import '../css/intro.css'
 
-import Carousel from './Carousel';
-
 class Intro extends React.Component {
   render(){
     return (
@@ -18,13 +16,6 @@ class Intro extends React.Component {
 
 
         </article>
-
-        <article>
-          
-          <Carousel />
-
-        </article>
-
 
       </div>
     )

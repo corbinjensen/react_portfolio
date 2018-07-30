@@ -2,7 +2,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between; 
+}
 
 @media (min-width: 670px) {
   header {
@@ -29,3 +30,15 @@ a {
 @media (min-width: 340px) {
   .title {
     width: 340px; } }
+
+@media (min-width: 950px) {
+  header {
+    justify-content: space-around;
+  }
+}
+
+
+
+
+  
+  

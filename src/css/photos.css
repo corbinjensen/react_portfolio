@@ -1,0 +1,30 @@
+.photoPort {
+    max-width: 1500px;
+}
+
+.photoPort > li {
+    margin: 1em 0;
+}
+
+.photoPort > li:nth-child(even) { 
+    text-align: right;
+}
+
+.photoPort > li > img {
+    max-width: 365px;
+}
+
+@media (min-width:717px) {
+    .photoPort > li > img   {
+        max-width: 50vw;
+    }
+}
+
+@media (min-width:1500px) {
+    .photoPort {
+        text-align: center;
+    }
+    .photoPort > li > img   {
+        max-width: 750px;
+    }
+}

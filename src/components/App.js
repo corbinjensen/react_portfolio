@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/style.css';
 import Header from './Header';
 import Intro from './Intro'
+import Photos from './Photos'
 import Footer from './Footer'
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Intro />
+        <Photos />
         <Footer />
       </div>
     );
