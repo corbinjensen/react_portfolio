@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/intro.css'
 
-import FarmCommand from '../img/farmCommand.png'
+import Carousel from './Carousel';
 
 class Intro extends React.Component {
   render(){
@@ -20,8 +20,8 @@ class Intro extends React.Component {
         </article>
 
         <article>
-
-          <img src={FarmCommand}/>
+          
+          <Carousel />
 
         </article>
 

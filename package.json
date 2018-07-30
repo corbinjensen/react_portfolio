@@ -4,12 +4,13 @@
   "private": true,
   "homepage": "https://corbinjensen.ca",
   "devDependencies": {
-    "node-sass": "^4.5.0",
+    "node-sass": "^4.9.2",
     "react-scripts": "0.9.5"
   },
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "nuka-carousel": "^4.3.5",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
   },
   "scripts": {
     "build-css": "node-sass src/sass -o src/css",
